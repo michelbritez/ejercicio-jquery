@@ -1,0 +1,26 @@
+body{
+	width: 80%;
+	margin: 0 auto; /*centrado de la pagina*/
+	font-family: "helvetica";
+	padding-left: 50px; /*margen interno izquierdo*/
+	padding-right: 50px; /*margen interno derecho*/
+}
+h1{
+	text-align: center;
+}
+p{
+	text-align: center;
+	border: solid 1px black;
+	width: 25%;
+	padding: 50px;
+}
+
+
+.contenedor{
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 50px;
+}	
+.card p{
+	text-align: center;
+}
