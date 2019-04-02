@@ -4,18 +4,40 @@ body{
 	font-family: "helvetica";
 	padding-left: 50px; /*margen interno izquierdo*/
 	padding-right: 50px; /*margen interno derecho*/
+	background: url("../img/binary.jpg");
+	background-size: cover;
+	
+}
+section{
+	text-align: center;
+	border-color: 1px white;
 }
 h1{
+	color: black;
 	text-align: center;
+	text-shadow: 2px 2px 0px white, -2px 2px 0px white, 0px 2px 2px white, -0px 2px 2px white, 2px 0px 2px white, -2px 0px 2px white,
+	2px 2px 0px white, -2px 2px 0px white;
 }
 p{
 	text-align: center;
-	border: solid 1px black;
-	width: 25%;
-	padding: 50px;
+	color: black;
+	text-align: center;
+	border: solid 2px black;
+
+	background: white;
 }
 
+h3{
+	text-align: center;
+	color: black;
+	text-shadow: 2px 2px 0px white, -2px 2px 0px white, 0px 2px 2px white, -0px 2px 2px white, 2px 0px 2px white, -2px 0px 2px white,
+	2px 2px 0px white, -2px 2px 0px white;
+}
 
+div{
+	text-shadow: 2px 2px 0px white, -2px 2px 0px white, 0px 2px 2px white, -0px 2px 2px white, 2px 0px 2px white, -2px 0px 2px white,
+	2px 2px 0px white, -2px 2px 0px white;
+}
 .contenedor{
 	display: flex;
 	justify-content: space-around;
